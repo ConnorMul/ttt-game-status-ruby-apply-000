@@ -26,4 +26,20 @@ def full?(board)
   i += 1
 end 
     
+draw_board = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]
+  draw?(draw_board)
+ 
+  x_diagonal_won = ["X", "O", "X", "O", "X", "O", "O", "O", "X"]
+  draw?(x_diagonal_won) 
+ 
+  incomplete_board = ["X", " ", "X", " ", "X", " ", "O", "O", "X"]
+  draw?(incomplete_board)    
+    
 def draw?(board)
+  i = 0 
+   if board[i] == "X" || board[i] == "O"
+     return true
+   else 
+  end 
+  i += 1 
+end 
