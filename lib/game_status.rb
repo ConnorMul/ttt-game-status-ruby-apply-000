@@ -15,12 +15,6 @@ WIN_COMBINATIONS = [
   [2, 4, 6]
   ]
 
-def won?(board)
-  WIN_COMBINATIONS.each do |i|
-    if |i| == 
-    
-   end 
-end 
     
 def full?(board)
   if board[i] = "" || board[i] = " "
