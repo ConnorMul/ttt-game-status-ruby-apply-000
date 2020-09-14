@@ -20,17 +20,11 @@ def won?(board)
     board[combo[0]] == board[combo[1]] &&
     board[combo[1]] == board[combo[2]] &&
     position_taken?(board, combo[0])
-    
-
-
-    
-def full?(board)
-  i = 0
-  if board[i] = "" || board[i] = " "
-    return false 
-  else 
-    return true 
   end 
-  i += 1
 end 
+    
+
+
+    
+
     
