@@ -17,10 +17,12 @@ WIN_COMBINATIONS = [
 
     
 def full?(board)
+  i = 0
   if board[i] = "" || board[i] = " "
     return false 
   else 
     return true 
   end 
+  i += 1
 end 
     
