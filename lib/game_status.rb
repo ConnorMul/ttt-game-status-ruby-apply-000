@@ -22,5 +22,11 @@ def won?(board)
    end 
 end 
     
-def full(board)
+def full?(board)
+  if board[i] = "" || board[i] = " "
+    return false 
+  else 
+    return true 
+  end 
+end 
     
