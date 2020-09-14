@@ -25,7 +25,7 @@ end
     
 
 def full?(board)
- if board.all?{|i| i = "X" || i = "O"}
+ board.all?{|i| i = "X" || i = "O"}
  end 
 end 
 
@@ -34,7 +34,7 @@ def draw?(board)
 end 
     
 def over?(board)
- if won?(board) || draw?(board) || full?(board)
+ won?(board) || draw?(board) || full?(board)
  end
 end 
 
