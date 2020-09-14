@@ -26,3 +26,4 @@ def full?(board)
   i += 1
 end 
     
+def draw?(board)
