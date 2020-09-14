@@ -40,6 +40,6 @@ def draw?(board)
    if board[i] == "X" || board[i] == "O"
      return true
    else 
-  end 
-  i += 1 
+  i += 1
+  end
 end 
