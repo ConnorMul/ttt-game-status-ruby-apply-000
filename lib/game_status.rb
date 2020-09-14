@@ -25,11 +25,7 @@ end
     
 
 def full?(board)
- if board.all?{|i| i = "X" || i = "O"}
-   return true 
- else !board.all?{|i| i = "X" || i = "O"
-   return false
- end
+ board.all?{|i| i = "X" || i = "O"}
 end 
 
 def draw?(board)
